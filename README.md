@@ -26,23 +26,3 @@ Quick Chat App is a full-stack, real-time messaging application designed for sea
 * Socket.io
 * JSON Web Tokens (JWT) for Authentication
 
-
-## 📂 Folder Structure
-
-Quick-Chat-App/
-├── client/                 # React frontend powered by Vite
-│   ├── src/
-│   │   ├── components/     # Reusable UI components
-│   │   ├── pages/          # Application views (Login, Chat, etc.)
-│   │   ├── context/        # React context for state management
-│   │   └── App.jsx         # Main application entry point
-│   ├── package.json
-│   └── vite.config.js
-├── server/                 # Node.js + Express backend
-│   ├── controllers/        # Request handling logic
-│   ├── models/             # Mongoose database schemas
-│   ├── routes/             # API endpoint definitions
-│   ├── middleware/         # Custom Express middleware (e.g., auth)
-│   ├── server.js           # Express app setup and Socket.io initialization
-│   └── package.json
-└── README.md
